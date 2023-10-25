@@ -1,0 +1,278 @@
+/* Сброс стилей */
+html, body, div, span, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, abbr, address, cite, code, del, dfn, em, img, ins, kbd, q, samp, small, strong, sub, sup, var, b, i, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, figcaption, figure, footer, header, hgroup, menu, nav, section, summary, time, mark, audio, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    font-size: 100%;
+    vertical-align: baseline;
+    background: transparent;
+}
+
+body {
+    line-height: 1;
+    background-color: #000510; /* Цвет фона для всего документа */
+}
+
+/* Блочные элементы */
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
+    display: block;
+}
+
+nav ul {
+    list-style: none;
+}
+
+/* Цитаты и кавычки */
+blockquote, q {
+    quotes: none;
+}
+
+blockquote:before, blockquote:after, q:before, q:after {
+    content: none;
+}
+
+/* Гиперссылки и подчеркивания */
+a {
+    margin: 0;
+    padding: 0;
+    font-size: 100%;
+    vertical-align: baseline;
+    background: transparent;
+    text-decoration: none;
+}
+
+ins {
+    background-color: #ff9;
+    color: #000;
+    text-decoration: none;
+}
+
+/* Выделение текста */
+mark {
+    background-color: #ff9;
+    color: #000;
+    font-style: italic;
+    font-weight: bold;
+}
+
+/* Зачеркнутый текст */
+del {
+    text-decoration: line-through;
+}
+
+/* Подсказки и аббревиатуры */
+abbr[title], dfn[title] {
+    border-bottom: 1px dotted;
+    cursor: help;
+}
+
+/* Таблицы */
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+/* Горизонтальная линия */
+hr {
+    display: block;
+    height: 1px;
+    border: 0;
+    border-top: 1px solid #ccc;
+    margin: 1em 0;
+    padding: 0;
+}
+
+/* Выравнивание элементов форм */
+input, select {
+    vertical-align: middle;
+}
+
+/* Остальные стили */
+.container {
+    display: flex;
+    justify-content: center;
+}
+
+.nav {
+    text-align: center;
+    position: fixed; /* Фиксировать навигационное меню */
+    top: 0; /* Разместить меню вверху экрана */
+    left: 0; /* Разместить меню слева экрана */
+    width: 100%; /* Занимать всю ширину экрана */
+    background-color: #000510; /* Цвет фона навигационного меню */
+    z-index: 100; /* Задать высокий z-индекс, чтобы навигационное меню было наверху */
+    display: flex;
+    justify-content: center;
+    margin-top: 0px;
+}
+
+.nav-link {
+    color: white;
+    text-decoration: none;
+    font-family: Montserrat;
+    padding-left: 50px;
+    text-align: center;
+    justify-content: center;
+    margin-top: 40px;
+}
+
+.img-logo {
+    vertical-align: middle;
+}
+
+.line-nav {
+    border-left: 2px solid rgb(255, 255, 255);
+    height: 20px;
+    margin-top: 37px;
+    margin-left: 30px;
+}
+
+.smm-nav {
+    margin-top: 38px;
+    margin-left: 50px;
+}
+
+.lang {
+    margin-top: 40px;
+    margin-left: 50px;
+    text-decoration: none;
+    color: white;
+    font-family: Montserrat;
+}
+
+.lang-1 {
+    text-decoration: none;
+    color: white;
+    padding-right: 30px;
+}
+
+#typed-output {
+    display: inline;
+    color: #FFF;
+    font-family: Montserrat;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    padding-top: 30px;
+    width: 100%;
+}
+
+.box-element {
+    margin-top: 20px;
+}
+
+#typed {
+    display: inline;
+    text-align: center;
+}
+
+.typed-cursor {
+    color: #ffffff;
+    font-size: 40px;
+}
+
+.text-1-bd1 {
+    color: #FFF;
+    font-family: Montserrat;
+    font-size: 14px;
+    font-style: normal;
+    letter-spacing: 2.24px;
+    color: #FFF;
+    font-weight: 600;
+    line-height: normal;
+    text-align: center;
+    margin-top: 70px;
+}
+
+.rolab {
+    color: #207FAF;
+    font-family: Montserrat;
+    font-size: 64px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.body-1 {
+    text-align: center;
+    padding-top: 40px;
+    margin-top: 150px;
+}
+
+
+/*body-2*/
+.container-2{
+    width: 1556px;
+    height: 200px;
+    background-color: #013047;
+    display: flex;
+    color: white;
+    margin-top: 400px;
+    padding-right: 100px;
+    padding-left: 100px;
+    padding-top: 80px;
+    padding-bottom: 80px;
+    font-family: montserrat;
+    flex-direction: row;
+    align-items: center;
+}
+
+.middle{
+    text-align: center;
+    padding-left: calc((1600px - 200px) / 8);
+    padding-right: calc(((1600px - 200px) / 8));
+}
+
+.right{
+    text-align: right;
+}
+
+.text{
+    color: #FFF;
+    font-family: Montserrat;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-top: 8px;
+}
+
+.s1, .s2, .s3{
+    color: #FFF;
+    font-family: 'Space Grotesk', sans-serif;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+/*container 3*/
+
+.r-img{
+    margin-left: 50px;
+    margin-top: 80px;
+}
+
+.container3{
+    margin-top: 150px;
+}
+
+.roadmap{
+    color: #207FAF;
+    font-family: Montserrat;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    text-align: center;
+}
+
+/*team*/
+
+.team{
+    color: white;
+}
